@@ -176,5 +176,5 @@ class Modal2 extends React.Component {
     )
   }
 }
-
+  
 export default App;
