@@ -161,8 +161,8 @@ function Modal(props) {
 
 // class문법은 constructor, super, render 기본적으로 만들어놓고 시작.
 class Modal2 extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       name : 'kim',
       age : 20
